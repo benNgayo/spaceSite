@@ -4,7 +4,7 @@ const Home = () => {
     <>
       <div className="bg-hero-pattern h-screen p-8   font-body justify-center flex flex-col w-screen">
         <div
-          className="flex justify-between  px-24 items-center absolute bottom-28 w-11/12"
+          className="flex justify-between  px-24 items-center absolute bottom-28 w-11/12 box-border"
           id="home"
         >
           <div className="text-white max-w-sm ">

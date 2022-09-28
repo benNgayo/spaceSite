@@ -1,15 +1,15 @@
-/* .swiper {
+.swiper {
     padding-top: 6rem !important;
 }
 
-.swiper-pagination {
+ .swiper-pagination1 {
     position: absolute !important;
     left: 0 !important;
     top: -2rem !important;
     text-align: left !important;
 }
 
-.swiper-pagination-bullet {
+.swiper-pagination1 .swiper-pagination-bullet {
     background-color: transparent !important;
     color: #D0D6F9 !important;
     padding: 30px 5px !important;
@@ -21,16 +21,12 @@
     line-height: 30px !important;
 }
 
-.swiper-pagination-bullet-active {
+.swiper-pagination1 .swiper-pagination-bullet-active {
     background-color: transparent !important;
     color: #FFF !important;
 }
 
-.swiper-pagination-bullet:hover {
+.swiper-pagination1 .swiper-pagination-bullet:hover {
     border-bottom: 2px solid white;
-} */
+} 
 
-.bullet-name{
-    color: red;
-    background-color: red;
-}

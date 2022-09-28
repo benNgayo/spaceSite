@@ -2,7 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-// import "./index.css";
+import "./index.css";
 const { destinations } = require("../../data.json");
 const Destination = () => {
   let names = destinations.map(({ name }) => {
@@ -20,10 +20,10 @@ const Destination = () => {
           </h2>
         </div>
         <Swiper
-          className="max-h-screen w-auto"
+          className="max-h-screen w-auto swiper1 box-border"
           modules={[Pagination]}
           pagination={{
-            el: ".swiper-pagination",
+            el: ".swiper-pagination1",
             clickable: true,
             renderBullet: function (index, className) {
               return (
@@ -43,7 +43,7 @@ const Destination = () => {
 
             return (
               <SwiperSlide
-                className="flex justify-between  w-[90%] h-[472px]"
+                className="flex justify-between  w-[90%] h-[472px] box-border"
                 key={index}
                 // id={`slide-${index}`}
               >
@@ -51,7 +51,7 @@ const Destination = () => {
                   <img src={png} alt={name} className="w-full" />
                 </div>
                 <div className="w-[26rem] relative">
-                  <div className="swiper-pagination"></div>
+                  <div className="swiper-pagination1"></div>
 
                   <h1 className="font-Bellefair font-serif text-8xl uppercase font-normal py-8 ">
                     {name}

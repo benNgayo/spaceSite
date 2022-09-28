@@ -1,0 +1,14 @@
+.swiper-pagination2{
+    position: absolute !important;
+    left: 4rem!important;
+}
+
+.swiper-pagination2 .swiper-pagination-bullet-active {
+    background-color: white !important;
+}
+.swiper-pagination2 .swiper-pagination-bullet {
+    background-color: rgb(187, 184, 184) !important;
+}
+.swiper-pagination2 .swiper-pagination-bullet:hover {
+    background-color: rgb(250, 246, 246) !important;
+}

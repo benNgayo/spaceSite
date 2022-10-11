@@ -1,0 +1,17 @@
+/* .home-icon:hover{
+    border:  60px solid #ccc9c9;
+    cursor: pointer;
+
+} */
+
+/* .home-icon::before{
+    content: "";
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    color: red;
+    position: absolute;
+    z-index: -10;
+    display: block;
+    border-radius: 50%;
+} */

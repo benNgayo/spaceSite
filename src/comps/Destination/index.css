@@ -1,9 +1,12 @@
-.swiper {
-    padding-top: 6rem !important;
+.swiper1 {
+    /* padding-top: 6rem !important; */
+    display: flex !important;
+    justify-content: center !important;
 }
 
  .swiper-pagination1 {
-    position: absolute !important;
+    /* position: absolute !important; */
+
     left: 0 !important;
     top: -2rem !important;
     text-align: left !important;
@@ -30,3 +33,20 @@
     border-bottom: 2px solid white;
 } 
 
+@media screen and (max-width: 768px) {
+    .swiper-pagination1{
+        text-align: center !important;
+        font-size: 14px;
+        line-height: 17px;        
+        letter-spacing: 2.3625px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .swiper-pagination1 {
+            text-align: center !important;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 2.7px;
+        }
+}

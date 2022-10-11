@@ -8,7 +8,7 @@ const { technology } = require("../../data.json");
 const Technology = () => {
   let nums = [1, 2, 3];
   return (
-    <div className="flex-col items-center pt-32 pl-32 bg-technologyDesktop h-screen text-white">
+    <div className="flex-col items-center pt-32 pl-32 bg-technologyDesktop bg-no-repeat bg-cover h-screen text-white">
       <div>
         <h1 className="font-barlow text-xl uppercase font-bold tracking-wide">
           <span className="opacity-25">03 </span> scace launch 101

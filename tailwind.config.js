@@ -7,6 +7,10 @@ module.exports = {
       backgroundImage: {
         "hero-pattern":
           "url('/public/assets/home/background-home-desktop.jpg')",
+        backgroundHomeMobile:
+          " url('/public/assets/home/background-home-mobile.jpg') ",
+        backgroundHomeTablet:
+          " url('/public/assets/home/background-home-tablet.jpg') ",
         destination:
           "url('/public/assets/destination/background-destination-desktop.jpg')",
         destinationMobile:
@@ -34,6 +38,11 @@ module.exports = {
       fontFamily: {
         body: "Bellefair",
         Barlow: "Barlow",
+      },
+      variants: {
+        extend: {
+          cursor: ["hover"],
+        },
       },
     },
   },

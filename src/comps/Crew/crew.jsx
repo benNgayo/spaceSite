@@ -10,7 +10,7 @@ const { crew } = require("../../data.json");
 
 const Crew = () => {
   return (
-    <section className="md:h-screen bg-crew box-border">
+    <section className="md:h-screen bg-crew bg-no-repeat bg-cover box-border">
       <Swiper
         className=" text-white h-[80vh] top-24 overflow-hidden"
         modules={[Pagination]}

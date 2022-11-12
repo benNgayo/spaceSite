@@ -3,7 +3,7 @@ import "./index.css";
 const Home = () => {
   return (
     <>
-      <div className=" bg-backgroundHomeMobile mix-blend-multiply bg-no-repeat bg-cover md:backgroundHomeTablet lg:bg-hero-pattern h-screen font-body">
+      <div className=" bg-backgroundHomeMobile -z-40 mix-blend-multiply bg-no-repeat bg-cover md:backgroundHomeTablet lg:bg-hero-pattern h-screen font-body">
         <div
           className="flex md:justify-between lg:flex-row lg:justify-between w-full flex-col  md:px-24 items-center absolute box-border top-[12rem] mb-12 md:mb-0 "
           id="home"

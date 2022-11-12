@@ -12,10 +12,10 @@ const Destination = () => {
     return namesArr;
   });
   return (
-    <section className="bg-destinationMobile md:bg-destinationTablet bg-no-repeat bg-cover h-full text-white  pt-[88px] md:pt-[136px] md:p-[38.5px] lg:p-36">
+    <section className="bg-destinationMobile md:bg-destinationTablet bg-no-repeat bg-cover text-white  pt-[5.5rem] md:pt-[8.5rem] h-screen ">
       <div>
         <div>
-          <h2 className=" text-base lg:text-2xl uppercase leading-[19px] tracking-[2.7px] text-center md:text-left ">
+          <h2 className=" text-base lg:text-2xl uppercase leading-[1.5rem] tracking-[2.7px] text-center md:text-left md:pl-[2rem] ">
             <span className="opacity-50">01</span> Pick your destination
           </h2>
         </div>
@@ -60,7 +60,7 @@ const Destination = () => {
                     {description}
                   </p>
                   <hr className="opacity-25" />
-                  <div className=" flex flex-col md:flex-row text-center justify-around pt-4">
+                  <div className=" flex flex-col md:flex-row text-center justify-around">
                     <div className="mb-[2rem]">
                       <span className="opacity-40 text-[1rem] leading-[1rem] tracking-[2.86px] ">
                         AVG. DISTANCE

@@ -1,8 +1,8 @@
 .swiper-pagination3{
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: start !important;
-    margin-right: 2rem ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    
     
 }
 
@@ -25,4 +25,10 @@
 
 .swiper-pagination3 .swiper-pagination-bullet:hover{
     border: 1px solid #FFF;
+}
+
+@media screen and (min-width: 1024px ){
+    .swiper-pagination3 {
+        flex-direction: column !important;
+    }
 }

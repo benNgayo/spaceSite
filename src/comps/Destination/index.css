@@ -15,13 +15,13 @@
 .swiper-pagination1 .swiper-pagination-bullet {
     background-color: transparent !important;
     color: #D0D6F9 !important;
-    padding: 30px 5px !important;
+    padding: 1.5rem 0.315rem !important;
     border-radius: 0 !important;
     width: auto !important;
     text-align: center !important;
-    height: 30px !important;
+    height: 1.5rem !important;
 
-    line-height: 30px !important;
+    line-height: 1.5rem !important;
 }
 
 .swiper-pagination1 .swiper-pagination-bullet-active {
@@ -36,8 +36,8 @@
 @media screen and (max-width: 768px) {
     .swiper-pagination1{
         text-align: center !important;
-        font-size: 14px;
-        line-height: 17px;        
+        font-size: 1rem;
+        line-height: 1rem;        
         letter-spacing: 2.3625px;
     }
 }
@@ -45,8 +45,18 @@
 @media screen and (max-width: 1200px) {
     .swiper-pagination1 {
             text-align: center !important;
-            font-size: 16px;
-            line-height: 19px;
+            font-size: 1rem;
+            line-height: 1rem;
             letter-spacing: 2.7px;
+        }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .swiper1 .swiper-slide {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-content: center;
         }
 }

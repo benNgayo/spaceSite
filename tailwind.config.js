@@ -38,6 +38,7 @@ module.exports = {
       fontFamily: {
         body: "Bellefair",
         Barlow: "Barlow",
+        BarlowCondensed: 'Barlow Condensed'
       },
       variants: {
         extend: {

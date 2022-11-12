@@ -12,7 +12,7 @@ const Destination = () => {
     return namesArr;
   });
   return (
-    <section className="bg-destinationMobile md:bg-destinationTablet bg-no-repeat bg-cover text-white h-screen pt-[88px] md:pt-[136px] md:p-[38.5px] lg:p-36">
+    <section className="bg-destinationMobile md:bg-destinationTablet bg-no-repeat bg-cover h-full text-white  pt-[88px] md:pt-[136px] md:p-[38.5px] lg:p-36">
       <div>
         <div>
           <h2 className=" text-base lg:text-2xl uppercase leading-[19px] tracking-[2.7px] text-center md:text-left ">
@@ -43,44 +43,39 @@ const Destination = () => {
 
             return (
               <SwiperSlide
-                className=" flex-row box-border"
                 key={index}
                 // id={`slide-${index}`}
               >
-                <div className="mb-[26px] flex justify-center">
-                  <img
-                    src={png}
-                    alt={name}
-                    className=" w-[170px] md:w-[300px] lg:w-[22rem] pt-[32px]"
-                  />
+                <div className="mb-[2rem]  flex justify-center max-w-[10rem] md:max-w-[18rem] lg:max-w-[22rem] text-center mx-auto pt-4 ">
+                  <img src={png} alt={name} className=" w-full h-fit lg:my-auto " />
                 </div>
-                <div className="lg:w-[26rem] md:px-[98px] ">
+                <div className="lg:max-w-[26rem] md:px-[6rem]">
                   <div className="swiper-pagination1"></div>
 
-                  <h1 className="font-Bellefair font-serif text-center text-[56px] lg:text-8xl uppercase font-normal py-8 leading-[64px] ">
+                  <h1 className="font-Bellefair font-serif text-center text-[3.5rem] lg:text-8xl uppercase font-normal py-4 leading-[4rem] ">
                     {name}
                   </h1>
-                  <p className="pb-4 opacity-60 text-[15px] md:text-[16px] md:leading-[28px]  leading-[25px] text-center px-[24px] ">
+                  <p className="pb-4 opacity-60 text-[1rem] md:text-[1rem] md:leading-[1.75rem]  leading-[1.75rem] text-center px-[1.5rem] ">
                     {" "}
                     {description}
                   </p>
                   <hr className="opacity-25" />
                   <div className=" flex flex-col md:flex-row text-center justify-around pt-4">
-                    <div className="mb-[32px]">
-                      <span className="opacity-40 text-[14px] leading-[16.8px] tracking-[2.86px] ">
+                    <div className="mb-[2rem]">
+                      <span className="opacity-40 text-[1rem] leading-[1rem] tracking-[2.86px] ">
                         AVG. DISTANCE
                       </span>
 
-                      <h2 className="text-[28px] leading-[32.09px] ">
+                      <h2 className="text-[1.75rem] leading-[2rem] ">
                         {distance}
                       </h2>
                     </div>
                     <div>
-                      <span className="opacity-40 text-[14px] leading-[16.8px] tracking-[2.36px] ">
+                      <span className="opacity-40 text-[1rem] leading-[1rem] tracking-[2.36px] ">
                         EST TRAVEL TIME
                       </span>
 
-                      <h2 className=" text-[28px] leading-[32.09px] ">
+                      <h2 className=" text-[1.75rem] leading-[2rem] ">
                         {travel}
                       </h2>
                     </div>

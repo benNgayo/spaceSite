@@ -1,6 +1,8 @@
 .swiper-pagination2{
     position: absolute !important;
-    left: 4rem!important;
+    /* display: flex !important;
+    justify-content: center !important; */
+    /* left: 4rem!important; */
 }
 
 .swiper-pagination2 .swiper-pagination-bullet-active {
@@ -11,4 +13,11 @@
 }
 .swiper-pagination2 .swiper-pagination-bullet:hover {
     background-color: rgb(250, 246, 246) !important;
+}
+
+@media screen and (min-width: 1024px) {
+    .swipper-pagination2{
+position: absolute !important;
+top: 80% !important ;
+    }
 }
